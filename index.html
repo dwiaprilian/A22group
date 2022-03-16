@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>B. J. Habibie</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+
+	<header>
+		<div class="header-logo">
+			<img src="images/logo.png" class="logo">
+		</div>
+		<div class="header-share">
+			<a href="#home">Home</a>
+			<a href="#about">About</a>
+			<a href="#achive">Achivement</a>
+		</div>
+	</header>
+
+	<div class="top-main">
+		<img src="./images/habibie.png" id="home" class="center">
+	</div>
+
+	<div class="main">
+        <h1 id="about">Bapak Teknologi Indonesia</h1>
+        <!-- <div class="img-div">
+            <img src="data:image/jpeg;base64,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" alt="Bj. Habibie">
+        </div> -->
+        <div class="profil-info">
+            <p>
+                Prof. DR (HC). Ing. Dr. Sc. Mult. Bacharuddin Jusuf Habibie atau lebih dikenal dengan B.J Habibie merupakan Presiden ketiga Republik Indonesia.
+                Laki-laki kelahiran Pare-Pare , Sulawesi Selatan tepatnya pada tanggal 25 Juni 1936 ini merupakan anak keempat dari 8 bersaudara pasangan Alwi Abdul Jalil Habibie dan RA. Tuti Marini Puspowardojo.
+                Ayah beliau berprofesi sebagai ahli pertanian yang berasal dari etnis Gorontalo dan berketutrunn Bugis Sedangkan ibunya beretnis Jawa. 
+                Pada tanggal 12 Mei 1962, laki-laki yang hobi berkuda dan membaca ini menikah dengan Hasri Ainun Besari dan dikaruniai 2 orang putra yang bernama Ilham Akbar Habibie dan Thareq kemal Habibie.
+            </p>
+            <h3>Pendidikan B.J Habibie</h3>
+            <p> B.J Habibie kuliah Teknik Mesin di ITB atau Institut Teknologi Bandung selama enam bulan, kemudian melanjutkan pendidikannya ke Jerman pada 1955 di Rhenisch Wesfalische Tehnische Hochscule. 
+                Kuliahnya dibiayai ibunya, R.A. Tuti Marini Puspowardoyo.Butuh waktu 10 tahun Habibie muda menuntaskan studi S-1 sampai S-3 di Aachen, Jerman.
+                Tak seperti kebanyakan mahasiswa Indonesia yang memperoleh beasiswa ke luar negeri, selama kuliah S1 dan S2, yang membiayai kuliahnya adalah ibundanya,
+                di mana ibu Habibie menjalankan usaha katering dan menyewa rumah di Bandung sebagai penghasilan untuk hidup dan membayar biaya kuliah Habibie.
+                Selama kuliah di Jerman, Habibie menekuni dan menggeluti bidang desain dan konstruksi pesawat terbang di Fakultas Teknik Mesin.
+                Butuh waktu lima tahun untuk mengakhiri studi di Jerman, Habibie pun memperoleh gelar Dilpom-Ingenenieur atau diploma teknik dengan predikat terbaik atau summa cumlaude.
+            </p>
+            <h3>Karir Politik B.J Habibie</h3>
+            <p>Karir politik BJ Habibie dimulai sejak ia kembali kdi Indonesia pada tahun 1974 atas perintah Soeharto. 
+                Mulai 1978 BJ Habibie ditetapkan sebagai Menteri Riset dan Teknologi 10 dekade hingga Maret 1998 di masa pemerintahan presiden Soeharto. 
+                Selain itu ia juga sempat memimpin perusahaan BUMN Industri strategi 10 tahun lamanya.
+                Mulai tahun 1998, tepatnya tanggal 14 Maret BJ Habibie diangkat menjadi Wakil Presiden ke-7 mendampingi Soeharto dalam Kabinet Pembangunan VII sampai 21 Mei 1998 saat Soeharto lengser dari jabatan presidennya. 
+                Setelah mundurnya Soeharto, BJ Habibie ditetapkan sebagai Presiden Indonesia ke-3 pada usianya yang ke 62 tahun dengan masa jabatan yang singkat, yakni 1 Mei 1998 hingga 20 Oktober 1999.
+                Saat BJ Habibie menjabat sebagai presiden, pada 30 Agustus 1999 Indonesia kehilangan Timor-Timur dari Negara Kesatuan Republik Indonesia dan menjadi negara terpisah.
+                Namun BJ Habibie berhasil menyelesaikan masalah tersebut secara damai yakni mengadakan jajak pendapat bagi warga Timor Timur untuk memilih merdeka atau tetap menjadi bagian dari Indonesia. 
+                Keputusannya tersebut sempat menjadi kontroversi oleh para ahli dan politikus Indonesia.Pada tahun 1999 BJ Habibie dipaksa lengser karena pertanggungjawabannya tidak diterima pada sidang umum MPR atas lepasnya Timor Timur dari NKRI. KH Abdurrahman Wahid akhirnya menggantikannya menjadi Presiden ke-4 RI.
+                BJ Habibie pun menjadi warga negara biasa dan kembali menetap di Jerman, meskipun sesekali berkunjung ke Indonesia.
+            </p>
+            <h3>Kisah Cinta B.J Habibie</h3>
+            <p>Ibu Ainun adalah pengisi kasih bagi kehidupan BJ Habibie saat susah maupun hingga BJ Habibie mapan. 48 Usia pernikahannya hingga BJ Habibie ditinggal Ibu Ainun wafat, mereka selalu bersama. Ibu Ainun selalu setia menemani BJ Habibie dan mendampinginya dengan sabar dan penuh kasih sayang.
+                Pada 22 Mei 2010, BJ Habibie kehilangang Hasri Ainun, Sang Istri tercinta yang meninggal dunia karena kanker ovarium. BJ Habibie sebelumnya tidak pernah tahu bahwa Sang Istri menderita kanker ovarium karena Ibu Ainun tidak pernah mengeluh sekalipun padanya.
+                BJ Habibie baru mengetahuinya 3 hari sebelum kepergian ibu Ainun, saat itulah ia merasa terluka. BJ Habibie pun menulis buku yang berjudul Habibie & Ainun setebal 323 halaman sebagai bentuk kecintaannya pada mendiang istrinya.
+                Buku itulah yang kemudian diangkat ke layar lebar dengan judul film yang sama dengan judul buku. Film biografi BJ Habibie tayang di Indonesia pada Desember 2012 dengan kisah sosoknya yang visioner dan romansa kisah cintanya dengan Ibu Ainun.
+            </p>   
+        </div>
+    </div>
+
+    <div id="achive" class="achievement">
+		<h3>PENGHARGAAN</h3>
+			<div class="img-div">
+				<img src="images/penghargaan-diberikan-kepada-bj-habibie.jpg" alt="penghargaan habibi" class="image">
+				<p>Penghargaan Internasional diberikan kepada Habibie</p>
+			</div>
+		<ul>
+			<li>Anggota Kehormatan Persatuan Insinyur Malaysia (IEM), Malaysia</li>
+			<li>Anggota Kehormatan Japanese Academy of Engineering, Jepang</li>
+			<li>Anggota Kehormatan The Fellowship of engineering of United Kingdom, Britania Raya</li>
+			<li>Anggota Kehormatan The National Academy of Engineering, AS</li>
+			<li>Anggota Kehormatan Academie Nationale de l'Air et de l'Espace, Perancis</li>
+			<li>Anggota Kehormatan The Royal Aeronautical Society, Britania Raya</li>
+			<li>Anggota Kehormatan The Royal Swedish Academy of engineering Science, Swedia</li>
+			<li>Anggota Kehormatan Gesselschaft Fuer Luft und Raumfarht (Lembaga Penerbangan & Ruang Angkasa), Jerman</li>
+			<li>Anggota Kehormatan American Institute of Aeronautics and Astronautics, AS</li>
+			<li>Anggota Kehormatan Masyarakat Aeronautika Kerajaan Inggris (1983)</li>
+			<li>Anggota Kehormatan Lembaga Penerbangan dan Antariksa, Jerman (1983)</li>
+			<li>Anggota Kehormatan Akademi Aeronautika Perancis (1985)</li>
+		</ul>
+
+		<h3>TANDA KEHORMATAN</h2>
+		<h4>Indonesia</h4>
+		<p>Sebagai wakil presiden, dan kemudian presiden Indonesia, Habibie secara otomatis menerima semua Tanda Kehormatan Bintang (sipil maupun militer) dengan kelas tertinggi, yaitu: </p>
+		<ul>
+			<li>Bintang Republik Indonesia Adipurna (27 Mei 1998)</li>
+			<li>Bintang Republik Indonesia Adipradana (12 Maret 1998)</li>
+			<li>Bintang Mahaputera Adipurna (12 Maret 1998)</li>
+			<li>Bintang Mahaputera Adipradana (17 Agustus 1982)</li>
+			<li>Bintang Jasa Utama (27 Mei 1998)</li>
+			<li>Bintang Budaya Parama Dharma rib.svg Bintang Budaya Parama Dharma (27 Mei 1998)</li>
+			<li>Bintang Bhayangkara Utama (27 Mei 1998)</li>
+			<li>Bintang Yudha Dharma Utama (27 Mei 1998)</li>
+			<li>Bintang Kartika Eka Paksi Utama (27 Mei 1998)</li>
+			<li>Bintang Jalasena Utama (27 Mei 1998)</li>
+			<li>Bintang Swa Bhuwana Paksa Utama (27 Mei 1998)</li>
+			<li>Satyalancana Dwidya Sistha (9 Agustus 1982)</li>
+		</ul>
+
+		<h4>Luar Negeri</h4>
+		<ul>
+			<li>Jerman</li>
+			<li>Salib Agung Orde Jasa Republik Federal Jerman (11 November 1980)</li>
+			<li>Lower Saxony</li>
+			<li>Salib Komandan (Großes Verdienstkreuz) Orde Jasa Niedersachsen (1 Desember 1980)
+			<li>Yordania</li>
+			<li>Barisan Agung Orde Kemerdekaan (Wisam al-Istiqlal) (14 April 1986)</li>
+			<li>Belanda</li>
+			<li>Salib Agung Kesatria Orde Oranye-Nassau (25 Mei 1983)</li>
+			<li>Spanyol</li>
+			<li>Salib Agung Orde Jasa Sipil (14 Mei 1980)</li>
+			<li>Chili</li>
+			<li>Salib Agung Jasa Penerbangan (3 Oktober 1985)</li>
+		</ul>
+	
+		<div class="filmografi">
+			<h3>FILMOGRAFI</h3>
+			<ul>
+				<li>Dalam film Habibie & Ainun dan Rudy Habibie, Habibie diperankan oleh Reza Rahadian.</li>
+				<li>Dalam film Di Balik 98, Habibie diperankan oleh Agus Kuncoro.</li>
+				<li>Dalam film Habibie & Ainun 3, Habibie muda diperankan kembali oleh Reza Rahadian.</li>
+			</ul>
+		</div>
+		<div class="publikasi">
+			<h3>PUBLIKASI</h3>
+			<div class="img-div">
+			<img src="images/pesawat-n250.jpg" alt="pesawat" class="image">
+			<p>Pesawat Nasional N-250 yang digagas Habibie, bertujuan untuk menghubungkan ribuan pulau yang membentang di Indonesia.</p>
+			</div>
+			<ul>
+				<li>Proceedings of the International Symposium on Aeronautical Science and Technology of Indonesia / B. J. Habibie; B. Laschka
+				[Editors]. Indonesian Aeronautical and Astronautical Institute; Deutsche Gesellschaft für Luft- und Raumfahrt 1986</li>
+				<li>Eine Berechnungsmethode zum Voraussagen des Fortschritts von Rissen unter beliebigen Belastungen und Vergleiche mit entsprechenden Versuchsergebnissen, Presentasi pada Simposium DGLR di Baden-Baden,11-13 Oktober 1971</li>
+				<li>Beitrag zur Temperaturbeanspruchung der orthotropen Kragscheibe, Disertasi di RWTH Aachen, 1965</li>
+				<li>Sophisticated technologies : taking root in developing countries, International journal of technology management : IJTM. - Geneva-Aeroport : Inderscience Enterprises Ltd, 1990</li>
+				<li>Einführung in die finite Elementen Methode,Teil 1, Hamburger Flugzeugbau GmbH, 1968</li>
+				<li>Entwicklung eines Verfahrens zur Bestimmung des Rißfortschritts in Schalenstrukturen, Hamburger Flugzeugbau GmbH, Messerschmitt-Bölkow-Blohm GmbH, 1970</li>
+				<li>Entwicklung eines Berechnungsverfahrens zur Bestimmung der Rißfortschrittsgeschwindigkeit an Schalenstrukturen aus A1-Legierungen und Titanium, Hamburger Flugzeugbau GmbH, Messerschmitt-Bölkow-Blohm GmbH, 1969</li>
+				<li>Detik-detik Yang Menentukan – Jalan Panjang Indonesia Menuju Demokrasi, 2006 (mengenang memperistiwa tahun 1998)</li>
+				<li>Habibie dan Ainun, The Habibie Center Mandiri, 2009 (memoir tentang Ainun Habibie)</li>
+				<li>Pesawat N-250 Gatot Kaca.</li>
+			</ul>
+		</div>
+	</div>
+
+
+	<div>
+		<div class="footer-animation">
+			<ul>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul><br>
+		</div>
+		<div class="second-footer">  
+		<div class="footer-profil">
+			<img src="images/bj-habibie.png" height="150px" width="150px">
+		</div>
+		<div class="footer-wrap">
+			<div class="footer-tribute">
+			<p><strong>Tribute To B. J. Habibie</strong><br> 3rd president of Indonesia</p>
+			</div>
+			<div class="footer-quote ac">
+			<i>"Di manapun engkau berada selalulah menjadi yang terbaik dan berikan yang terbaik dari yang bisa kita berikan."<br>-BJ. Habibie-</i>
+			</div>
+		</div>
+	</div>
+	</footer>
+</body>
+</html>
