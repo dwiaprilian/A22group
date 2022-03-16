@@ -1,0 +1,215 @@
+body {
+  margin: 0;
+  background-color: #fffef5;
+}
+
+header {
+  width: 100%;
+  background-color: rgba(237, 234, 213, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 60px;
+  padding: 12px 20px;
+}
+
+.header-logo {
+  float: left;
+  padding-left: 5%;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.header-share {
+  display: flex;
+  float: right;
+  transition: all 0.5s;
+  padding-right: 5%;
+}
+
+.header-share a:hover {
+  background-color: rgba(255, 254, 245, 0.9);
+}
+
+.header-share a {
+  line-height: 50px;
+  padding: 0 25px;
+  color: black;
+  display: block;
+  text-decoration: none;
+}
+
+.top-main {
+  /*background-color: #FFFEF5;*/
+}
+
+.top-main h1 {
+  font-family: "Trebuchet MS";
+  opacity: 0.8;
+  text-align: center;
+  font-size: 30px;
+  margin: 0;
+  padding-top: hi;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.main h1 {
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 40px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.profil-info {
+  margin: 10px 40px;
+  padding: 10px;
+  font-family: Arial;
+  letter-spacing: 0.5px;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.profil-info p {
+  padding: 5px;
+}
+
+/*body{
+	margin: 15px 30px;
+	font-family: arial;
+}*/
+
+.achievement {
+  font-family: arial;
+  margin: 10px 40px;
+  padding: 10px;
+}
+
+.achievement h3 {
+  color: black;
+}
+.achievement h4 {
+  color: red;
+}
+
+.img-div img {
+  width: 300px;
+  height: 150px;
+}
+
+.img-div {
+  text-align: center;
+}
+.publikasi p {
+  text-align: center;
+  color: blue;
+}
+.publikasi ul {
+  text-align: justify;
+}
+
+.second-footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 30px 0px;
+  font-family: "arial black";
+  background-color: rgb(237, 234, 213);
+  border-top: 3px #646363 solid;
+}
+.footer-profil {
+  float: left;
+  padding-right: 10px;
+  border-right: 3px #646363 solid;
+}
+.footer-quote {
+  padding-left: 20px;
+  font-family: arial;
+  width: 500px;
+}
+.footer-tribute {
+  padding-right: 30px;
+  padding-left: 20px;
+  font-family: "arial black";
+}
+strong {
+  font-size: 30px;
+}
+.footer-animation {
+  padding: 40px 0px;
+}
+
+/* script animasi*/
+.footer-animation ul {
+  position: absolute;
+
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0px 0px;
+  display: flex;
+}
+.footer-animation ul li {
+  list-style: none;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border-radius: 50%;
+  animation: animate 1.6s ease-in-out infinite;
+}
+@keyframes animate {
+  0%,
+  40%,
+  100% {
+    transform: scale(0.2);
+  }
+  20% {
+    transform: scale(0.5);
+  }
+}
+.footer-animation ul li:nth-child(1) {
+  animation-delay: -1.4s;
+  background: #ffeed6;
+  box-shadow: 0 0 10px #646363;
+}
+.footer-animation ul li:nth-child(2) {
+  animation-delay: -1.2s;
+  background: #ffd9ad;
+  box-shadow: 0 0 10px #646363;
+}
+.footer-animation ul li:nth-child(3) {
+  animation-delay: -1s;
+  background: #ffbe83;
+  box-shadow: 0 0 10px #646363;
+}
+.footer-animation ul li:nth-child(4) {
+  animation-delay: -0.8s;
+  background: #ffa465;
+  box-shadow: 0 0 10px #646363;
+}
+.footer-animation ul li:nth-child(5) {
+  animation-delay: -0.6s;
+  background: #ff7a32;
+  box-shadow: 0 0 10px #646363;
+}
+.footer-animation ul li:nth-child(6) {
+  animation-delay: -0.4s;
+  background: #db5924;
+  box-shadow: 0 0 10px #646363;
+}
+.footer-animation ul li:nth-child(7) {
+  animation-delay: -0.2s;
+  background: #b73c19;
+  box-shadow: 0 0 10px #646363;
+}
