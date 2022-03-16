@@ -1,0 +1,48 @@
+@media all and (max-width: 1000px) {
+  h1,
+  h2,
+  h3,
+  h4 {
+    text-align: center;
+  }
+}
+
+@media all and (max-width: 670px) {
+  .header-share a {
+    line-height: 50px;
+    padding: 0 10px;
+    color: black;
+    display: block;
+    text-decoration: none;
+  }
+  .main h1 {
+    font-size: 27px;
+    margin: 0;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    text-align: center;
+  }
+  .footer-profil {
+    float: left;
+    padding-right: 10px;
+    padding-left: 30px;
+    border-right: 3px #646363 solid;
+  }
+  .footer-quote {
+    padding-left: 10px;
+    font-family: arial;
+    width: 80%;
+    font-size: 14px;
+  }
+  .footer-tribute {
+    padding-right: 30px;
+    padding-left: 10px;
+    font-family: "arial black";
+  }
+  strong {
+    font-size: 28px;
+  }
+}
