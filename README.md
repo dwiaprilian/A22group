@@ -1,4 +1,4 @@
-# Tugas Kelompok B22 Front End Developer Kelas B 
+# Tugas Kelompok A22 Front End Developer Kelas B 
 
 Anggota Kelompok:
 1. Asti Afelia Safika Wardani
